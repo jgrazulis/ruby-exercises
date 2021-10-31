@@ -41,9 +41,8 @@ class Hobbit
   def has_ring?
     @has_ring
   end 
-def is_short?
-  @is_short
-end 
 
-
+  def is_short?
+   @is_short
+  end 
 end 
