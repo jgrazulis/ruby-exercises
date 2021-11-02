@@ -24,9 +24,7 @@ RSpec.describe Pirate do
 
   it 'is not cursed by default' do
     pirate = Pirate.new('Jack')
-
     expect(pirate.cursed?).to be false
-
     pirate.commit_heinous_act
     expect(pirate.cursed?).to be false
 
